@@ -1,0 +1,201 @@
+@media (min-width: 860px) {
+  #main-nav .logo {
+    width: 48%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 859px) {
+  #main-nav .social i {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* variables */
+  :root {
+    --max-width: 768px;
+  }
+
+  /* Navbar Styling */
+  #main-nav .container {
+    grid-template-columns: 3fr 1.5fr 1.5fr;
+  }
+  #main-nav .container a img.logo {
+    display: block;
+    width: 60%;
+    align-self: center;
+  }
+
+  /* Hiding social icons under this breakpoint */
+  .social {
+    display: none;
+  }
+
+  #main-nav .container ul {
+    grid-column: 3 / span 1;
+    justify-self: end;
+    display: flex;
+  }
+  /* Articles Section Styling */
+  #home-articles .articles-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  #home-articles .articles-group1 > *,
+  #home-articles .articles-group2 > * {
+    height: fit-content;
+  }
+  #home-articles .articles-group1,
+  #home-articles .articles-group2 {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  #home-articles .articles-group1 > *:first-child,
+  #home-articles .articles-group2 > *:last-child {
+    grid-column: auto;
+    grid-template-columns: 1fr;
+  }
+  /* About Page Styling */
+  #about-container .container {
+    grid-gap: 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+  /* Article Page Styling */
+  #article-container .container {
+    grid-gap: 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+  #main-nav .logo {
+    width: 60%;
+  }
+  #main-nav .social i {
+    font-size: 1.5rem;
+  }
+  #main-nav ul {
+    grid-column: 1 / span 2;
+    justify-self: center;
+  }
+  #main-nav ul li a {
+    padding: 0.5rem;
+  }
+
+  #article-container .container .card {
+    padding: 0.5rem;
+  }
+
+  /* Footer */
+  #main-footer .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+  }
+  #main-footer .container > *:first-child {
+    border-bottom: 1px dotted #444;
+  }
+  #main-footer .container > *:nth-child(2) {
+    grid-row: 2 / span 1;
+  }
+  #main-footer .container .copyright {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (max-width: 500px) {
+  /* variables */
+  :root {
+    --max-width: 500px;
+  }
+
+  /* Navbar Styling */
+  #main-nav .container {
+    padding-right: 0;
+    grid-template-columns: auto;
+    align-items: center;
+  }
+  #main-nav .container a {
+    grid-column: 1 / span 1;
+  }
+  #main-nav .container a img.logo {
+    display: block;
+    width: 60%;
+    align-self: center;
+  }
+  #main-nav .container ul {
+    grid-column: 2 / span 1;
+    justify-self: end;
+  }
+
+  /* Showcase Styling */
+  #showcase {
+    height: 10 0vh;
+  }
+  #showcase .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content {
+    font-size: small;
+  }
+
+  /*Articles Section Styling  */
+  #home-articles .container {
+    padding: 0 0.75rem;
+  }
+  #home-articles .articles-container {
+    grid-template-columns: 1fr;
+    grid-gap: 0.75rem;
+  }
+
+  /* About Page Styling */
+  #about-container .container {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  #about-container .container .card h2 {
+    text-align: center;
+  }
+
+  /* Article Page Styling */
+  #article-container .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 0 0.4rem;
+  }
+
+  #article-container .container .article-content {
+    grid-row: 2 / span 1;
+  }
+  #article-container .article-head {
+    font-size: 0.55rem;
+  }
+  #article-container .container .box .join-club-box {
+    display: none;
+  }
+
+  /* Footer */
+  #main-footer .container {
+    grid-template-columns: 1fr;
+    padding: 20px 30px;
+  }
+  #main-footer .container > *:first-child,
+  #main-footer .container > *:nth-child(2),
+  #main-footer .container > *:nth-child(3),
+  #main-footer .container > *:nth-child(4) {
+    padding-bottom: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #main-footer .container > *:first-child {
+    border-bottom: 1px dotted #444;
+  }
+  #main-footer .container .copyright {
+    grid-column: 1;
+    font-size: 0.5rem;
+  }
+}
