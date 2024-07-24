@@ -1,6 +1,6 @@
 # NewsGrid Website
 
-This is a website built using `HTML`, `CSS` with **`CSS GRID`** for page layouts. It is from the [**Modern HTML & CSS From The Beginning**](https://www.udemy.com/course/modern-html-css-from-the-beginning/?couponCode=LETSLEARNNOW) Traversy Media Course
+This is a sample news website built using `HTML`, `CSS` with **`CSS GRID`** for page layouts. It is from the [**Modern HTML & CSS From The Beginning**](https://www.udemy.com/course/modern-html-css-from-the-beginning/?couponCode=LETSLEARNNOW) Traversy Media Course
 (link to the revamp version on Udemy).
 
 ![app screenshot](/img/screenshot.png)
