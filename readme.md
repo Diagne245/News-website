@@ -5,9 +5,7 @@ This is a sample news website built using `HTML`, `CSS` with **`CSS GRID`** for 
 
 ![app screenshot](/img/screenshot.png)
 
-## Deploy Link
-
-A deployed version of the website to `Netlify`:&ensp; [**Portfolio Website**](https://clinquant-truffle-10bed7.netlify.app/)
+Demo: &ensp;**https://clinquant-truffle-10bed7.netlify.app/**
 
 ## Contact Page Form Submission
 
